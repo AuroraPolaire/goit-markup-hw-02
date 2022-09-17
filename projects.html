@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Web Studio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"><span>Web</span>Studio</a>
-        <ul>
+        <a href="/" class="label"><span class="blue-label">Web</span>Studio</a>
+        <ul class="navigation list">
           <li><a href="/">Студія</a></li>
-          <li><a href="/">Портфоліо</a></li>
+          <li class="active">
+            <a href="./projects.html" class="active">Портфоліо</a>
+          </li>
           <li><a href="/">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contacts list">
         <li>
           <a href="mailto:info@devsudio.com">info@devstudio.com</a>
         </li>
@@ -28,146 +36,136 @@
     </header>
     <main>
       <section>
-        <h1>Приклади робіт</h1>
-        <ul>
+        <h1 class="hidden-heading">Приклади робіт</h1>
+        <ul class="list">
           <li>
-            <button>Усі</button>
+            <button class="filter-button">Усі</button>
           </li>
           <li>
-            <button>Веб-сайти</button>
+            <button class="filter-button">Веб-сайти</button>
           </li>
           <li>
-            <button>Додатки</button>
+            <button class="filter-button">Додатки</button>
           </li>
           <li>
-            <button>Дизайн</button>
+            <button class="filter-button">Дизайн</button>
           </li>
           <li>
-            <button>Маркетинг</button>
+            <button class="filter-button">Маркетинг</button>
           </li>
         </ul>
-        <ul>
-          <li>
-            <a href="#">
-              <h2></h2>
-              <p></p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <h2></h2>
-              <p></p>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <h2></h2>
-              <p></p>
-            </a>
-          </li>
-          <li>
+        <ul class="list">
+          <li class="card-name">
             <a href="#">
               <img
-                src="./images/img1.jpg"
+                src="./images/img10.jpg"
                 alt="Відкритий лептоп з завантаженим сайтом"
                 width="370"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="card-name">Технокряк</h2>
+              <p class="card-description">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img2.jpg"
+                src="./images/img11.jpg"
                 alt="Постер з граючими баскетболістами"
                 width="370"
               />
-              <h2>Постер <span lang="eng">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="card-name">
+                Постер <span lang="eng">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="card-description">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img3.jpg"
+                src="./images/img12.jpg"
                 alt="Надпис ресторан Seafood на фоні риби"
                 width="370"
               />
-              <h2>Ресторан <span lang="eng">Seafood</span></h2>
-              <p>Додаток</p>
+              <h2 class="card-name">
+                Ресторан <span lang="eng">Seafood</span>
+              </h2>
+              <p class="card-description">Додаток</p>
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/img4.jpg" alt="Навушники" width="370" />
-              <h2>Проєкт <span lang="eng">Prime</span></h2>
-              <p>Маркетинг</p>
+              <img src="./images/img13.jpg" alt="Навушники" width="370" />
+              <h2 class="card-name">Проєкт <span lang="eng">Prime</span></h2>
+              <p class="card-description">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img5.jpg"
+                src="./images/img14.jpg"
                 alt="Дві коробки: біла та бежева"
                 width="370"
               />
-              <h2>Проєкт <span lang="eng">Boxes</span></h2>
-              <p>Додаток</p>
+              <h2 class="card-name">Проєкт <span lang="eng">Boxes</span></h2>
+              <p class="card-description">Додаток</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img6.jpg"
+                src="./images/img15.jpg"
                 alt="Монітор з завантаженим сайтом"
                 width="370"
               />
-              <h2 lang="eng">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 lang="eng" class="card-name">Inspiration has no Borders</h2>
+              <p class="card-description">Веб-сайт</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img7.jpg"
+                src="./images/img16.jpg"
                 alt="Відкритий глянцевий журнал"
                 width="370"
               />
-              <h2>Видання <span lang="eng">Limited Edition</span></h2>
-              <p>Дизайн</p>
+              <h2 class="card-name">
+                Видання <span lang="eng">Limited Edition</span>
+              </h2>
+              <p class="card-description">Дизайн</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img8.jpg"
+                src="./images/img17.jpg"
                 alt="Етикетка з надписом"
                 width="370"
               />
-              <h2>Проєкт <span lang="eng">LAB</span></h2>
-              <p>Маркетинг</p>
+              <h2 class="card-name">Проєкт <span lang="eng">LAB</span></h2>
+              <p class="card-description">Маркетинг</p>
             </a>
           </li>
           <li>
             <a href="#">
               <img
-                src="./images/img9.jpg"
+                src="./images/img18.jpg"
                 alt="Людина, працююча на лептопі"
                 width="370"
               />
-              <h2 lang="eng">Growing Business</h2>
-              <p>Додаток</p>
+              <h2 lang="eng" class="card-name">Growing Business</h2>
+              <p class="card-description">Додаток</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="/"><span>Web</span>Studio</a>
+    <footer class="dark-background">
+      <a href="/" class="label label-footer"
+        ><span class="blue-label">Web</span>Studio</a
+      >
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
+        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="list mail-phone">
           <li>
             <a href="mailto:info@devsudio.com">info@devstudio.com </a>
           </li>
