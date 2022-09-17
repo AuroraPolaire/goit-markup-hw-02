@@ -1,8 +1,7 @@
 :root {
   --heading-color: #212121;
   --paragraph-color: #757575;
-  --logo-blue: #2196f3;
-  --logo-black: #000;
+  --accent-color: #2196f3;
   --backgroun-color-white: #fff;
   --background-color-dark: #2f303a;
 }
@@ -23,12 +22,12 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  color: var(--logo-black);
+  color: #000;
   text-decoration: none;
 }
 
 .blue-label {
-  color: var(--logo-blue);
+  color: var(--accent-color);
 }
 
 /* Navigation */
@@ -42,7 +41,7 @@ a {
 }
 
 .navigation a {
-  color: var(--logo-black);
+  color: var(--heading-color);
 }
 
 .contacts a {
@@ -53,11 +52,11 @@ a {
 .navigation a:focus,
 .contacts a:hover,
 .contacts a:focus {
-  color: var(--logo-blue);
+  color: var(--accent-color);
 }
 
 .active a {
-  color: var(--logo-blue);
+  color: var(--accent-color);
 }
 
 .list {
@@ -87,7 +86,7 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
   color: #fff;
-  background-color: var(--logo-blue);
+  background-color: var(--accent-color);
   border: 0px;
 }
 
@@ -124,14 +123,12 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
   color: var(--heading-color);
 }
 
 .team-job {
   font-size: 16px;
   line-height: 1.2;
-  text-align: center;
   color: var(--paragraph-color);
 }
 
@@ -166,8 +163,9 @@ a {
 
 .filter-button:hover {
   color: #fff;
-  background-color: var(--logo-blue);
+  background-color: var(--accent-color);
   border: 0px;
+  cursor: pointer;
 }
 
 /* Main section */
