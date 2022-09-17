@@ -107,7 +107,7 @@ a {
 .special-section-text {
   font-size: 14px;
   line-height: 1.7;
-  color: var(var(--paragraph-color));
+  color: var(--paragraph-color);
 }
 
 /* Third section */
