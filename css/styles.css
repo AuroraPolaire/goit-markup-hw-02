@@ -9,7 +9,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--paragraph-color);
-  letter-spacing: 0.03em;
 }
 
 a {
@@ -24,10 +23,12 @@ a {
   font-size: 26px;
   color: #000;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 
 .blue-label {
   color: var(--accent-color);
+  letter-spacing: 0.03em;
 }
 
 /* Navigation */
@@ -36,7 +37,7 @@ a {
 .contacts a {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -101,12 +102,14 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--heading-color);
 }
 .special-section-text {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
 
@@ -123,13 +126,14 @@ a {
 .team-name {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.2;
   color: var(--heading-color);
 }
 
 .team-job {
-  font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
 
@@ -144,6 +148,7 @@ a {
   font-size: 14px;
   font-style: normal;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -156,7 +161,9 @@ a {
 .filter-button {
   font-weight: 500;
   font-size: 16px;
+  font-family: inherit;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   color: var(--heading-color);
   background-color: #f5f4fa;
   border: 0px;
@@ -180,7 +187,7 @@ a {
 }
 
 .card-description {
-  font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
   color: var(--paragraph-color);
 }
